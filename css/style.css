@@ -93,14 +93,15 @@ a:active {
   position: relative;
   overflow: hidden;
   margin: 10px;
-  min-width: 230px;
-  max-width: 315px;
+  min-width: 30.5%;
+  max-width: 30.5%;
   width: 100%;
   color: #ffffff;
   text-align: left;
   background-color: #ffffff;
   line-height: 1.4em;
   transform: translateZ(0);
+  display: inline-block;
 }
 .snip1410 *,
 .snip1410 *:before {
