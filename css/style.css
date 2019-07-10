@@ -71,4 +71,125 @@ h1 {
 
 /*End Menu Primer*/
 
+/*Start Anchor / Hyperlink*/
+a:link,
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+a:hover,
+a:active {
+    color: black;
+    text-decoration: underline;
 
+}
+/*End Anchor / Hyperlink*/
+
+/* Start JS */
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Julius+Sans+One);
+.snip1410 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  background-color: #ffffff;
+  line-height: 1.4em;
+  transform: translateZ(0);
+}
+.snip1410 *,
+.snip1410 *:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease-out;
+  transition: all 0.35s ease-out;
+}
+.snip1410 img {
+  max-width: 100%;
+  vertical-align: top;
+  -webkit-transition: all 0.8s ease-out;
+  transition: all 0.8s ease-out;
+}
+.snip1410:before {
+  background: #000000;
+  position: absolute;
+  content: '';
+  -webkit-transition: all 0.35s ease-out;
+  transition: all 0.35s ease-out;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+  z-index: 1;
+  bottom: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  box-shadow: 0 0 40px white;
+}
+.snip1410 figcaption {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+.snip1410 h2,
+.snip1410 p {
+  margin: 0;
+  width: 100%;
+  opacity: 0;
+  padding: 25px;
+}
+.snip1410 h2 {
+  font-family: 'Julius Sans One', Arial, sans-serif;
+}
+.snip1410 p {
+  position: absolute;
+  bottom: 0;
+  padding-left: 60px;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  text-align: right;
+}
+.snip1410 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 2;
+}
+.snip1410:hover img,
+.snip1410.hover img {
+  opacity: 0.2;
+}
+.snip1410:hover:before,
+.snip1410.hover:before {
+  bottom: 0;
+  box-shadow: 0 0 0px white;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.snip1410:hover figcaption h2,
+.snip1410.hover figcaption h2,
+.snip1410:hover figcaption p,
+.snip1410.hover figcaption p {
+  -webkit-transition-delay: 0.25s;
+  transition-delay: 0.25s;
+}
+.snip1410:hover figcaption h2,
+.snip1410.hover figcaption h2 {
+  -webkit-transform: translateY(0%);
+  transform: translateY(0%);
+  opacity: 0.5;
+}
+.snip1410:hover figcaption p,
+.snip1410.hover figcaption p {
+  opacity: 0.7;
+}
+/*End JS*/
